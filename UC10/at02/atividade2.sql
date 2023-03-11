@@ -12,4 +12,4 @@ CREATE TABLE ComaBem.Produtos (
     qt_produto DECIMAL NOT NULL,
     cd_unidade INT NOT NULL,
     CONSTRAINT fk_produto_unidade FOREIGN KEY (cd_unidade) REFERENCES Unidades (cd_unidade)
-);z
+);
